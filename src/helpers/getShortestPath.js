@@ -28,7 +28,7 @@ const getShortestPath = async (sourceId, algo) => {
 			weight: ride.walkingTime + ride.wait_time,
 		});
 	});
-	console.log(edges);
+	
 
 	let shortestWeight = [];
 
